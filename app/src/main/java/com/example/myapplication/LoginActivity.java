@@ -1,4 +1,4 @@
-package com.example.praktikumprogmob;
+package com.example.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;

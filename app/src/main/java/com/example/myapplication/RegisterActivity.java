@@ -1,4 +1,4 @@
-package com.example.praktikumprogmob;
+package com.example.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,13 +22,13 @@ public class RegisterActivity extends AppCompatActivity {
         regis = (Button) findViewById(R.id.btnDaftar);
         masuk = (TextView) findViewById(R.id.masuk);
 
-        regis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(RegisterActivity.this,SetFotoActivity.class);
-                startActivity(i);
-            }
-        });
+//        regis.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent i = new Intent(RegisterActivity.this,SetFotoActivity.class);
+//                startActivity(i);
+//            }
+//        });
 
         masuk.setOnClickListener(new View.OnClickListener() {
             @Override
